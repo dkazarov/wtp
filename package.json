@@ -8,7 +8,8 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"deploy": "gh-pages -d dist"
+		"deploy": "gh-pages -d dist",
+		"serve": "json-server --watch db.json --port 3000"
 	},
 	"browserslist": [
 		"cover 99.5%"
@@ -18,8 +19,10 @@
 		"cheerio": "^1.0.0",
 		"fs": "^0.0.1-security",
 		"gh-pages": "^6.3.0",
+		"json": "^11.0.0",
 		"postcss": "^8.5.2",
 		"sass-embedded": "^1.83.4",
+		"server": "^1.0.41",
 		"sharp": "^0.33.5",
 		"vite": "^6.1.0",
 		"vite-plugin-compression": "^0.5.1",
