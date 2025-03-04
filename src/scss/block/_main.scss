@@ -1,8 +1,16 @@
-.main-inner {
+.main {
 }
 .form {
-}
-.input-item {
+	text-align: center;
+	margin-bottom: 50px;
 }
 .list {
+	align-items: center;
+}
+.list ul {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	gap: 10px;
+	justify-content: space-between;
+	text-align: center;
 }
