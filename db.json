@@ -1,0 +1,16 @@
+{
+	"games": [
+		{
+			"id": 1,
+			"title": "The Witcher 3"
+		},
+		{
+			"id": 2,
+			"title": "Cyberpunk 2077"
+		},
+		{
+			"id": 3,
+			"title": "Red Dead Redemption 2"
+		}
+	]
+}
