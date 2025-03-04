@@ -1,0 +1,28 @@
+{
+	"name": "vite-js",
+	"private": true,
+	"version": "1.0.1",
+	"type": "module",
+	"homepage": "https://dkazarov.github.io/____.git",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"deploy": "gh-pages -d dist"
+	},
+	"browserslist": [
+		"cover 99.5%"
+	],
+	"devDependencies": {
+		"autoprefixer": "^10.4.20",
+		"cheerio": "^1.0.0",
+		"fs": "^0.0.1-security",
+		"gh-pages": "^6.3.0",
+		"postcss": "^8.5.2",
+		"sass-embedded": "^1.83.4",
+		"sharp": "^0.33.5",
+		"vite": "^6.1.0",
+		"vite-plugin-compression": "^0.5.1",
+		"vite-plugin-image-optimizer": "^1.1.8"
+	}
+}

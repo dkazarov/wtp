@@ -1,0 +1,16 @@
+@use 'mini-reset';
+@use 'normalize';
+@use 'fonts';
+@use 'variables';
+@use 'presets';
+@use 'global';
+
+// Block
+@use './block/header';
+@use './block/hero';
+@use './block/footer';
+
+//Vendor
+
+// Components
+@use './scss-components/burger';

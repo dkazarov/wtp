@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--main-font), sans-serif;
+	color: var(--main-color);
+	font-weight: 400;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.container {
+	max-width: var(--container-width);
+	padding-left: var(--container-padding-x);
+	padding-right: var(--container-padding-x);
+	margin: 0 auto;
+	flex-grow: 1;
+}
+.footer {
+	margin-top: auto;
+}
