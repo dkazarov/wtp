@@ -1,4 +1,4 @@
-import { renderData, fetchData } from './renderData';
+import { renderData, fetchData } from './fetchAndRenderData';
 const addDataBtn = document.querySelector('form button');
 const input = document.querySelector('form input');
 

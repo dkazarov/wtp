@@ -34,7 +34,11 @@ export const renderData = data => {
 
 		const deleteBtn = document.createElement('button');
 		deleteBtn.classList.add('delete-btn');
+		deleteBtn.dataset.id = game.id;
 		deleteBtn.innerHTML = '&#10006';
 		listUl.appendChild(li).appendChild(deleteBtn);
+
+		li.appendChild(deleteBtn);
+		listUl.appendChild(li);
 	});
 };
