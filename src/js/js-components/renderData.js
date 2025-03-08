@@ -31,6 +31,10 @@ export const renderData = data => {
 		const li = document.createElement('li');
 		li.classList.add('list-item');
 		li.textContent = game.title;
-		listUl.appendChild(li);
+
+		const deleteBtn = document.createElement('button');
+		deleteBtn.classList.add('delete-btn');
+		deleteBtn.innerHTML = '&#10006';
+		listUl.appendChild(li).appendChild(deleteBtn);
 	});
 };
