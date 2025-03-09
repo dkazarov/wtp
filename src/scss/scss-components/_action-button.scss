@@ -1,0 +1,6 @@
+.action-btn {
+	transition: color 0.3s ease-in-out;
+	&:hover {
+		color: var(--action-color);
+	}
+}

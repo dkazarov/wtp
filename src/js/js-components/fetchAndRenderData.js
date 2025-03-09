@@ -27,18 +27,18 @@ export const renderData = data => {
 	}
 
 	listUl.innerHTML = ''; // Очищуємо список
-	data.forEach(game => {
-		const li = document.createElement('li');
-		li.classList.add('list-item');
-		li.textContent = game.title;
+	data.forEach(data => {
 
-		const deleteBtn = document.createElement('button');
-		deleteBtn.classList.add('delete-btn');
-		deleteBtn.dataset.id = game.id;
-		deleteBtn.innerHTML = '&#10006';
-		listUl.appendChild(li).appendChild(deleteBtn);
-
-		li.appendChild(deleteBtn);
-		listUl.appendChild(li);
+		listUl.insertAdjacentHTML(
+			'beforeend',
+			`
+		<li>${data.title}
+			<div class="edit-inner">
+				<button class="edit-btn action-btn btn--reset">✎</button>
+				<button class="delete-btn action-btn btn--reset" data-id=${data.id}>&#10006</button>
+			</div>
+		</li>
+		`,
+		);
 	});
 };
