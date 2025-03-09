@@ -7,10 +7,11 @@ export const deleteAction = async () => {
 	listUl.addEventListener('click', async e => {
 		if (e.target.classList.contains('delete-btn')) {
 			const id = e.target.dataset.id;
+			
 			try {
 				if (confirm('Видалити гру?')) {
 					await deleteItem(id);
-					// После удаления обновляем данные
+					// Після видалення обновлюємо данні
 					const updatedData = await fetchData();
 					renderData(updatedData);
 				}

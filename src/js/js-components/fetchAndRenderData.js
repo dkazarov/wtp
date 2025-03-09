@@ -28,13 +28,12 @@ export const renderData = data => {
 
 	listUl.innerHTML = ''; // Очищуємо список
 	data.forEach(data => {
-
 		listUl.insertAdjacentHTML(
 			'beforeend',
 			`
 		<li>${data.title}
 			<div class="edit-inner">
-				<button class="edit-btn action-btn btn--reset">✎</button>
+				<button class="edit-btn action-btn btn--reset" data-id=${data.id}>✎</button>
 				<button class="delete-btn action-btn btn--reset" data-id=${data.id}>&#10006</button>
 			</div>
 		</li>
