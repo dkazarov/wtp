@@ -39,6 +39,9 @@
 		font-size: 18px;
 		align-items: center;
 	}
+	.header__inner h1 {
+		padding-right: 0;
+	}
 }
 
 @media (max-width: 414px) {
