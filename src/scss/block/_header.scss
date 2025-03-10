@@ -8,24 +8,25 @@
 }
 
 .header__inner {
+	display: flex;
 	padding: 20px 0;
 	width: 100%;
 	user-select: none;
-}
-
-.header__inner h1 {
-	display: block;
-	margin: 0 auto;
-	font-size: 28px;
 }
 
 .logo {
 	position: relative;
 	z-index: 1;
 }
-header h1 {
+
+.header__inner h1 {
+	display: block;
+	margin: 0 auto;
+	font-size: 28px;
 	color: var(--glass);
+	padding-right: 50px;
 }
+
 .random-btn {
 	padding: 10px 20px;
 	background-color: var(--glass);
