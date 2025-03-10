@@ -27,43 +27,17 @@
 	padding-right: 50px;
 }
 
-.random-btn {
-	padding: 10px 20px;
-	background-color: var(--glass);
-	border-radius: 7px;
-	font-size: 16px;
-}
-
 @media (max-width: 768px) {
-	header nav {
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		right: -150%;
-		transform: translateX(-50%);
-		display: block;
-		transition: all 0.2s ease-in-out;
-		background-color: var(--main-bg-color);
+	.logo {
+		display: none;
 	}
-	header nav ul {
-		position: absolute;
-		display: block;
-		left: 50%;
-		top: 25%;
-		width: 100%;
-		height: 100%;
-		transform: translateX(-50%);
+	header h1 {
+		padding-right: 0;
+		display: flex;
+		flex-wrap: wrap;
 		text-align: center;
-		font-size: 50px;
-		overflow: auto;
-	}
-	header nav li {
-		margin-bottom: 25px;
-	}
-	.burger {
-		display: block;
-		z-index: 100 !important;
+		font-size: 18px;
+		align-items: center;
 	}
 }
 
