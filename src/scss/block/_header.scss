@@ -8,12 +8,15 @@
 }
 
 .header__inner {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	padding: 20px 0;
 	width: 100%;
 	user-select: none;
+}
+
+.header__inner h1 {
+	display: block;
+	margin: 0 auto;
+	font-size: 28px;
 }
 
 .logo {

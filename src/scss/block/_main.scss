@@ -95,6 +95,14 @@
 	z-index: -1;
 }
 
+.edit-btn {
+	font-size: 100%;
+}
+
+.delete-btn {
+	font-size: 100%;
+}
+
 .edit-input {
 	outline: none;
 	border: none;
@@ -126,7 +134,8 @@
 	}
 
 	.random-btn {
-		padding: 3%;
+		padding: 3% 10%;
+		font-size: 24px;
 	}
 	.logo {
 		display: none;
@@ -135,7 +144,7 @@
 
 @media (max-width: 768px) {
 	.form {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
 	.list ul {
 		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
