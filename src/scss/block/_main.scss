@@ -1,11 +1,24 @@
-.search__inner {
+.search-inner {
 	display: flex;
-	justify-content: right;
-	align-items: center;
+	margin-bottom: 30px;
 }
 
-.search {
-	height: 30px;
+.search-inner img {
+	cursor: pointer;
+}
+
+.search-inner form {
+	width: 89%;
+}
+
+.search-inner input {
+	border-radius: 6px;
+	border: none;
+	padding: 12px;
+	outline: none;
+	width: 100%;
+	margin-left: 3%;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .form {
