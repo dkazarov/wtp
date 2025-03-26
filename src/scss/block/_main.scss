@@ -1,3 +1,13 @@
+.search__inner {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.search {
+	height: 30px;
+}
+
 .form {
 	text-align: center;
 	margin-bottom: 50px;
@@ -114,6 +124,18 @@
 	font-size: 18px;
 }
 
+.random-btn {
+	display: block;
+	margin: 0 auto;
+	padding: 1.5% 4%;
+	font-size: 24px;
+	border-radius: 7px;
+	background-color: var(--btn-color-action);
+	color: var(--white);
+	margin-bottom: 50px;
+	font-weight: 500;
+}
+
 @media (max-width: 768px) {
 	.header {
 		margin-bottom: 5%;
@@ -138,6 +160,14 @@
 	.list ul {
 		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 		gap: 14px;
+	}
+}
+
+@media (max-width: 575px) {
+	.random-btn {
+		margin-bottom: 30px;
+		padding: 2% 4%;
+		font-size: 20px;
 	}
 }
 

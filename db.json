@@ -1,84 +1,384 @@
 {
   "games": [
     {
-      "id": "692f",
+      "id": "1",
       "title": "Detroit Become Human"
     },
     {
-      "id": "3746",
+      "id": "2",
+      "title": "God of War 1/2"
+    },
+    {
+      "id": "3",
       "title": "A Plague Tale 1/2"
     },
     {
-      "id": "5d4e",
+      "id": "4",
       "title": "Uncharted 4"
     },
     {
-      "id": "e34a",
+      "id": "5",
       "title": "As Duck Fall"
     },
     {
-      "id": "84de",
-      "title": "Resident evil all parts"
+      "id": "6",
+      "title": "Resident Evil (all parts)"
     },
     {
-      "id": "eb8b",
-      "title": "Skyrim"
+      "id": "7",
+      "title": "Skyrim Require"
     },
     {
-      "id": "3c1a",
+      "id": "8",
       "title": "The Casting of Frank Stone"
     },
     {
-      "id": "9146",
+      "id": "9",
       "title": "Stray"
     },
     {
-      "id": "8425",
-      "title": "Rise son of Rome"
+      "id": "10",
+      "title": "Rise Son of Rome"
     },
     {
-      "id": "003b",
+      "id": "11",
       "title": "Alan Wake"
     },
     {
-      "id": "a5cf",
+      "id": "12",
       "title": "Unravel"
     },
     {
-      "id": "f063",
-      "title": "Eriksholm the stolen dream"
+      "id": "13",
+      "title": "Eriksholm the Stolen Dream"
     },
     {
-      "id": "9da8",
-      "title": "Into the dead our darkest days"
+      "id": "14",
+      "title": "Into the Dead Our Darkest Days"
     },
     {
-      "id": "16e3",
+      "id": "15",
       "title": "Indika"
     },
     {
-      "id": "6c46",
+      "id": "16",
       "title": "Stray Souls"
     },
     {
-      "id": "64fb",
-      "title": "Life is Starange 1/2/3"
+      "id": "17",
+      "title": "Life is Strange 1/2/3"
     },
     {
-      "id": "1b78",
-      "title": "Tomb Raider Begin 2013"
+      "id": "18",
+      "title": "Tomb Rider 2013"
     },
     {
-      "id": "09c0",
-      "title": "Batman Arkham Knight"
+      "id": "19",
+      "title": "Batman, Arkham Knight"
     },
     {
-      "id": "0c33",
-      "title": "The Outlast Trials"
+      "id": "20",
+      "title": "The outlast trials"
     },
     {
-      "id": "e05f",
+      "id": "21",
       "title": "The Cub"
+    },
+    {
+      "id": "22",
+      "title": "The Invisible"
+    },
+    {
+      "id": "23",
+      "title": "Ghostbusters"
+    },
+    {
+      "id": "24",
+      "title": "Dragons dogma 1/2"
+    },
+    {
+      "id": "25",
+      "title": "Blairwitch"
+    },
+    {
+      "id": "26",
+      "title": "It Takes Two"
+    },
+    {
+      "id": "27",
+      "title": "The Last Sky"
+    },
+    {
+      "id": "28",
+      "title": "Assassins creed"
+    },
+    {
+      "id": "29",
+      "title": "Ghost of thusima"
+    },
+    {
+      "id": "30",
+      "title": "Gears 5"
+    },
+    {
+      "id": "31",
+      "title": "Baltursgate 3"
+    },
+    {
+      "id": "32",
+      "title": "Star Trek Infinity"
+    },
+    {
+      "id": "33",
+      "title": "Mafia Definite Edition"
+    },
+    {
+      "id": "34",
+      "title": "Alone in the dark"
+    },
+    {
+      "id": "35",
+      "title": "Inside"
+    },
+    {
+      "id": "36",
+      "title": "Banisher: ghost of new  eden"
+    },
+    {
+      "id": "37",
+      "title": "Erica"
+    },
+    {
+      "id": "38",
+      "title": "The sinkin city"
+    },
+    {
+      "id": "39",
+      "title": "Humankind"
+    },
+    {
+      "id": "40",
+      "title": "Final fantasy"
+    },
+    {
+      "id": "41",
+      "title": "Little nightmares"
+    },
+    {
+      "id": "42",
+      "title": "Avengers"
+    },
+    {
+      "id": "43",
+      "title": "The chant"
+    },
+    {
+      "id": "44",
+      "title": "No rest of the wicked"
+    },
+    {
+      "id": "45",
+      "title": "ILL"
+    },
+    {
+      "id": "46",
+      "title": "Twin Mirror"
+    },
+    {
+      "id": "47",
+      "title": "Terminator dark fate"
+    },
+    {
+      "id": "48",
+      "title": "Elder Ring"
+    },
+    {
+      "id": "49",
+      "title": "A way out"
+    },
+    {
+      "id": "50",
+      "title": "Observer"
+    },
+    {
+      "id": "51",
+      "title": "Witcher 3"
+    },
+    {
+      "id": "52",
+      "title": "Remnant 2"
+    },
+    {
+      "id": "53",
+      "title": "Mass Effect"
+    },
+    {
+      "id": "54",
+      "title": "Battlefield"
+    },
+    {
+      "id": "55",
+      "title": "Layers of fear"
+    },
+    {
+      "id": "56",
+      "title": "Dead space"
+    },
+    {
+      "id": "57",
+      "title": "Need for speed the run"
+    },
+    {
+      "id": "58",
+      "title": "The last case of Benedict fox"
+    },
+    {
+      "id": "59",
+      "title": "Hogwards legacy"
+    },
+    {
+      "id": "60",
+      "title": "Titan Fall 2"
+    },
+    {
+      "id": "61",
+      "title": "Instinction"
+    },
+    {
+      "id": "62",
+      "title": "63. Indiana Jones"
+    },
+    {
+      "id": "63",
+      "title": "Routin"
+    },
+    {
+      "id": "64",
+      "title": "Fort Soils"
+    },
+    {
+      "id": "65",
+      "title": "Days Gone"
+    },
+    {
+      "id": "66",
+      "title": "Sylent Hill Remake"
+    },
+    {
+      "id": "67",
+      "title": "Honor of kings"
+    },
+    {
+      "id": "68",
+      "title": "Jusant"
+    },
+    {
+      "id": "69",
+      "title": "Lost records: bloom & rage"
+    },
+    {
+      "id": "70",
+      "title": "The beast inside"
+    },
+    {
+      "id": "71",
+      "title": "Heavy Rain"
+    },
+    {
+      "id": "72",
+      "title": "Into the dead: our Darkest Days"
+    },
+    {
+      "id": "73",
+      "title": "Planet of Lana"
+    },
+    {
+      "id": "74",
+      "title": "The Lost Wild"
+    },
+    {
+      "id": "75",
+      "title": "The Query"
+    },
+    {
+      "id": "76",
+      "title": "No body wants to die"
+    },
+    {
+      "id": "77",
+      "title": "Untill Down"
+    },
+    {
+      "id": "78",
+      "title": "Byoung to sols"
+    },
+    {
+      "id": "79",
+      "title": "The medium"
+    },
+    {
+      "id": "80",
+      "title": "Death stranding directors cut"
+    },
+    {
+      "id": "81",
+      "title": "Quantum break"
+    },
+    {
+      "id": "82",
+      "title": "Still wakes the deep"
+    },
+    {
+      "id": "83",
+      "title": "Predator hunting grounds"
+    },
+    {
+      "id": "84",
+      "title": "85. Spec ops the line"
+    },
+    {
+      "id": "85",
+      "title": "Sons of the forest"
+    },
+    {
+      "id": "86",
+      "title": "Mad max"
+    },
+    {
+      "id": "87",
+      "title": "The crust"
+    },
+    {
+      "id": "88",
+      "title": "Call of duty Remake"
+    },
+    {
+      "id": "89",
+      "title": "Hellblade"
+    },
+    {
+      "id": "90",
+      "title": "The division 2"
+    },
+    {
+      "id": "91",
+      "title": "Red redemption"
+    },
+    {
+      "id": "92",
+      "title": "Gta 5"
+    },
+    {
+      "id": "93",
+      "title": "Crysis 1,2,3 remastered"
+    },
+    {
+      "id": "94",
+      "title": "Cyberpunk 2077"
+    },
+    {
+      "id": "95",
+      "title": "The dark pictures +"
     }
   ]
 }
